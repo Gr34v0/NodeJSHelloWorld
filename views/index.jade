@@ -1,0 +1,22 @@
+extends layout
+
+link(href='/public/stylesheets/style.css', rel='stylesheet')
+block content
+  h1 #{title} landing page
+
+  p #[a(href='/extraPage') Internal Link to another page]
+
+  p #[a(href='https://www.linkedin.com/in/gr34v0/') External Link to LinkedIn]
+
+  p.
+    I have very little experience in web technology. Over both of my COOPs I was tasked with nearly exclusively
+    backend development, but I was briefly exposed to HTML/CSS/JS in my first, and I developed a REST API and
+    utilized said API on my second. I wish to learn as much as I can about web development as I can so that I am
+    no longer in the dark about the subject.
+
+  p.
+    Star Trek is one of my favorite things, and thus I thought it would be appropriate to add a picture of the
+    latest iteration of Star Trek as my "favorite thing" image.
+
+
+  img.className#trekImage(src="/images/DiscoveryImage.jpg")
